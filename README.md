@@ -1,1 +1,1 @@
-# HTML5-CSS3_Note
+# This project is about HTML and CSS notes.

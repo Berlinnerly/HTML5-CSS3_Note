@@ -20,13 +20,14 @@
         form的属性
             action 表单要提交的服务器的地址
      -->
-    <form action="target.html">
+    <form action="target.html" method="post">
         <!--
            文本框
            注意：数据要提交到服务器中，必须要为元素指定一个name属性值
         -->
         文本框 <input type="text" name="username">
         <br><br>
+
         <!-- 
             密码框
          -->
@@ -44,7 +45,7 @@
         <label for="2">2</label>
         <br><br>
 
-        <!-- 
+        <!--
             多选框
          -->
         多选框 <input type="checkbox" name="test" value="1" id="3">
